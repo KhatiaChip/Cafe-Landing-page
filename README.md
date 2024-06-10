@@ -10,8 +10,8 @@ HTML & CSS
 # Screenshots
 
 <img src=cafe-01.png>
-<img src=cafe-02.png>
 <img src=cafe-03.png>
+<img src=cafe-02.png>
 
 # Deployment 
  <a href=""> you can review project link here </a>
