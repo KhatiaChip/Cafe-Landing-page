@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e67e22;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+}
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(cafe.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.header-container {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
+}
+
+/* Section 2 */
+.section-meals {
+  padding: 32px;
+}
+.meal-img {
+  width: 100%;
+}
+.meal-title {
+  font-size: 2rem;
+  color: #733f11;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-content {
+  padding: 2.4rem 1.2rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meals {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.meal-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+
+.meals-01 {
+  padding: 32px;
+
+  line-height: 1.6;
+  font-size: 20px;
+}
+.secondary-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.secondary-head-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a15818;
+}
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
