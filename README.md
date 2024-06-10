@@ -13,4 +13,4 @@ HTML & CSS
 <img src=cafe-02.png>
 
 # Deployment 
- <a href=""> you can review project link here </a>
+ <a href="https://khatiachip.github.io/Cafe-Landing-page/"> you can review project link here </a>
