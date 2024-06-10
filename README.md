@@ -10,7 +10,6 @@ HTML & CSS
 # Screenshots
 
 <img src=cafe-01.png>
-<img src=cafe-03.png>
 <img src=cafe-02.png>
 
 # Deployment 
